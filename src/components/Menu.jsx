@@ -5,7 +5,10 @@ import eye from "../images/Layer 2.svg";
 
 function Menu() {
   return (
-    <header className="bg-black px-10 pt-5 flex justify-between">
+    <header
+      className="bg-black px-10 pt-5 flex justify-between fixed top-0 w-full 
+    opacity-40 hover:opacity-60 z-10"
+    >
       <img src={logo} alt="logo" />
       <div className="text-white flex justify-between gap-5">
         <NavLink>SIGN IN</NavLink>
