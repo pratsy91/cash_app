@@ -10,16 +10,15 @@ function App() {
     <>
      <div className="flex flex-col  h-screen  overflow-y-scroll relative bg-black">
      <img src={stars} className="w-screen h-screen absolute"/>
-        <Menu />
+       <div className="z-10">
+       <Menu />
         <UpperHome />
         <div className="flex justify-center items-center absolute left-72 top-20 bg-stars">
           <Home />
         </div>
-
         <LowerHome />
+       </div>
       </div></>
-     
-    
   );
 }
 
