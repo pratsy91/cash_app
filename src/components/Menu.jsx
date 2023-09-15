@@ -5,7 +5,7 @@ import eye from "../images/Layer 2.svg";
 
 function Menu() {
   return (
-    <header className="bg-black px-10 py-5 flex justify-between">
+    <header className="bg-black px-10 pt-5 flex justify-between">
       <img src={logo} alt="logo" />
       <div className="text-white flex justify-between gap-5">
         <NavLink>SIGN IN</NavLink>

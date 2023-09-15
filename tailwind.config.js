@@ -5,7 +5,8 @@ module.exports = {
     fontSize: {
       cash: "18rem",
     },
-    extend: {},
+    extend: {
+    },
   },
   plugins: [],
 };
