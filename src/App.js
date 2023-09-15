@@ -21,11 +21,11 @@ function App() {
         />
 
         <UpperHome />
-        <div className="flex justify-center items-center absolute left-72 top-20">
+        <div className="flex justify-center items-center absolute left-72 top-52">
           <Home />
         </div>
         <LowerHome />
-        <footer className="px-16 gap-12 absolute -bottom-20 flex justify-between items-center">
+        <footer className="px-16 gap-12 absolute -bottom-40 flex justify-between items-center">
           <div className="flex justify-between items-center gap-10">
             <FooterBox image={apple} text="APP STORE" />
             <FooterBox image={google} text="GOOGLE PLAY" />
