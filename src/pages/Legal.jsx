@@ -1,0 +1,14 @@
+import React from 'react'
+import legal from "../images/legal.jpg"
+
+function Legal() {
+  return (
+    <div className="h-screen bg-top bg-cover bg-no-repeat overflow-y-scroll relative bg-black flex justify-center items-center pt-96"
+    style={{
+     backgroundImage: `url(${legal})`,
+   }}>       
+   </div>
+  )
+}
+
+export default Legal
