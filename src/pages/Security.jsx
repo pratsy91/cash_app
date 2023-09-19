@@ -14,7 +14,7 @@ function Security() {
         }}
       >
         <div className=" bg-teal-700 text-white opacity-95 p-5 rounded-md">
-          <h1 className="text-scash text-green-500 pb-5">Security</h1>
+          <h1 className="text-xxl text-green-500">Security</h1>
           <p className="text-bold text-xl">
             <span className="text-green-500 text-xxl">I</span>t’s never been
             easier to send money, but that doesn’t mean it shouldn’t be safe.
@@ -24,9 +24,7 @@ function Security() {
             animi? Inventore, doloremque unde. Exercitationem ex id perspiciatis
             nesciunt expedita voluptate pariatur totam ullam mollitia
             repudiandae error dolore, eos quas explicabo quasi nihil molestias
-            iure suscipit in voluptas. Quaerat soluta a provident ipsum. Veniam
-            adipisci necessitatibus perferendis? Doloremque numquam dolor sequi
-            minima, labore fugit ex in repellendus voluptatem saepe!
+            iure suscipit in voluptas. Quaerat soluta a provident ipsum. V
           </p>
         </div>
       </div>

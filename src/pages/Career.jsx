@@ -13,7 +13,7 @@ function Career() {
     >
       <div className=" bg-white opacity-80 p-2 rounded-md">
         <h1 className="text-xxl text-green-500">
-          Redefine the world’s relationship with money.
+          Redefine relationship with money.
         </h1>
         <p className="text-bold text-xl">
           <span className="text-green-500 text-xxl">W</span>e want to make the

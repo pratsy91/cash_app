@@ -11,7 +11,7 @@ function Support() {
         backgroundImage: `url(${support})`,
       }}
     >
-      <div className=" bg-white opacity-80 p-5 rounded-md">
+      <div className=" bg-white opacity-80 py-5 px-2 rounded-md">
         <h1 className="text-xxl text-green-500">How Can We Help You?</h1>
         <p className="text-bold text-xl">
           <span className="text-green-500 text-xxl">T</span>echnical support
@@ -20,10 +20,7 @@ function Support() {
           services. This can include software or hardware issues, or more
           complex network and IT support. Technical support may be offered over
           the phone, via email, live chat, or through remote access tools that
-          allow technicians to access and control a customer's device. The goal
-          of technical support is to provide timely and effective solutions to
-          ensure customers can use their technology products and services with
-          minimal disruption.
+          allow technicians to access and control a customer's device.
         </p>
       </div>
     </div>

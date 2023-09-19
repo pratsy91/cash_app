@@ -19,7 +19,7 @@ function Menu() {
     <>
       <header
         className="bg-black px-10 pt-5 flex justify-between items-center fixed top-0 w-full 
-  opacity-40 hover:opacity-60 z-20"
+  opacity-80 hover:opacity-80 z-20"
       >
         <img
           src={logo}
@@ -196,7 +196,6 @@ function Menu() {
               </NavLink>
             </li>
             <li>
-              {" "}
               <NavLink
                 to="/support"
                 className={({ isActive, isPending }) =>

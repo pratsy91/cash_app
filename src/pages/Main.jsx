@@ -4,11 +4,12 @@ import Home from "../components/Home";
 import LowerHome from "../components/LowerHome";
 import UpperHome from "../components/UpperHome";
 import stars from "../images/stars.svg";
+import Payments from "./Payments";
 
 function Main() {
   return (
     <>
-      <div className="flex flex-col w-screen h-screen  overflow-y-scroll relative bg-black">
+      <div className="flex flex-col w-screen h-screen overflow-y-scroll relative bg-black">
         <img src={stars} className=" w-screen h-screen absolute " alt="stars" />
 
         <UpperHome />
@@ -18,6 +19,7 @@ function Main() {
         <LowerHome />
         <Footer />
       </div>
+
       {/* <div className="flex flex-col w-screen h-screen  overflow-y-scroll relative bg-black">
         <img src={stars} className=" w-screen h-screen absolute " alt="stars" />
 
