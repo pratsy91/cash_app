@@ -8,7 +8,7 @@ import insta from "../images/insta.svg";
 function Footer() {
   return (
     <footer
-      className="gap-4 bp:px-16 bp:gap-12 absolute bp:-bottom-16 -bottom-56 
+      className="gap-4 bp:px-16 bp:gap-12 absolute bp:-bottom-16 -bottom-96 
     bp:flex-row flex flex-col justify-between items-center p-2"
     >
       <div className="flex justify-between items-center gap-10 order-10 bp:-order-1">

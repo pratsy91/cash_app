@@ -13,6 +13,7 @@ import Support from "./pages/Support";
 import Status from "./pages/Status";
 import Codeblog from "./pages/Codeblog";
 import License from "./pages/License";
+import Payments from "./pages/Payments";
 
 const route = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ const route = createBrowserRouter([
       {
         path: "license",
         element: <License />,
+      },
+      {
+        path: "payment",
+        element: <Payments />,
       },
     ],
   },
