@@ -4,10 +4,14 @@ import { NavLink, useNavigate } from "react-router-dom";
 import eye from "../images/Layer 2.svg";
 import { FaBars } from "react-icons/fa6";
 import { AiOutlineClose } from "react-icons/ai";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function Menu() {
   const navigate = useNavigate();
+
+  const { user, loginWithRedirect, isAuthenticated, logout } = useAuth0();
   const [show, setShow] = useState(false);
+
   const logoHandler = () => {
     navigate("/");
   };
@@ -29,12 +33,15 @@ function Menu() {
         />
 
         <div className="text-white justify-between gap-5 bp:flex hidden">
-          <NavLink
-            to="/"
-            className="border  px-1 py-1 bg-green-500 text-white mb-2 rounded-md"
-          >
-            SIGN IN
-          </NavLink>
+          {!isAuthenticated ? (
+            <button
+              onClick={(e) => loginWithRedirect()}
+              className="border  px-1 py-1 bg-green-500 text-white mb-2 rounded-md"
+              type="button"
+            >
+              SIGN IN
+            </button>
+          ) : null}
           <NavLink
             to="/legal"
             className={({ isActive, isPending }) =>
@@ -115,6 +122,15 @@ function Menu() {
           >
             CODEBLOG
           </NavLink>
+          {isAuthenticated ? (
+            <button
+              onClick={(e) => logout()}
+              className="border  px-1 py-1 bg-green-500 text-white mb-2 rounded-md"
+              type="button"
+            >
+              SIGN OUT
+            </button>
+          ) : null}
         </div>
         {show ? (
           <div
