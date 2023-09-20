@@ -13,8 +13,8 @@ function Security() {
         }}
       >
         <div className=" bg-white text-black opacity-95 px-1 py-1 rounded-md">
-          <h1 className="text-xxl text-green-500 font-bold">Security</h1>
-          <p className="text-bold text-xl">
+          <h1 className="text-xl text-green-500 font-bold">Security</h1>
+          <p className="text-bold text-xl text-justify">
             <span className="text-green-500 text-xl">I</span>t’s never been
             easier to send money, but that doesn’t mean it shouldn’t be safe.
             Cash App utilizes a variety of safety features to process millions

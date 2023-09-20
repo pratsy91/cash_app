@@ -2,7 +2,7 @@ import React from "react";
 import progress from "../images/status.jpg";
 
 function Status() {
-  let arr = ["send and recieve money", "cash card", "cash app pay", "offers"];
+  let arr = ["cash card", "cash app pay", "offers"];
   return (
     <div
       className="h-screen bg-top bg-cover bg-no-repeat 
@@ -16,7 +16,7 @@ function Status() {
         <h1 className="text-xl text-green-500 pb-1 ">Good to go</h1>
         <ul className="flex flex-col gap-5">
           {arr.map((a) => (
-            <li className="p-2 border border-green-500 rounded-md flex justify-between">
+            <li className="px-2 border border-green-500 rounded-md flex gap-1 justify-between">
               <span className="uppercase text-xl font-bold">{a}</span>
               <span className="text-green-500 uppercase">working</span>
             </li>
