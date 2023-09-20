@@ -6,7 +6,7 @@ function Home() {
     <>
       <div
         className="flex flex-col text-center bp:px-0 px-10 
-      items-center relative bp:top-32 top-40"
+      items-center relative bp:top-32 top-40 md:-top-10"
       >
         <p className=" text-scash bp:text-cash text-white  font-black">CASH</p>
         <div className=" w-36 bp:w-96 bp:top-24 absolute bp:-bottom-24  bp:left-56">

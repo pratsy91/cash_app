@@ -7,7 +7,8 @@ import insta from "../images/insta.svg";
 function FooterBox({ text, image }) {
   return (
     <div
-      className="border border-black rounded-md py-1 px-2 flex justify-center gap-2 w-38 bp:w-40
+      className="border border-black rounded-md py-1 px-2 flex 
+      justify-center gap-2 w-38 bp:w-40 md:w-40 md:h-10
       bp:h-10 h-14 items-center"
     >
       <img src={image} alt={text} />
@@ -20,13 +21,17 @@ function NormalFooter() {
   return (
     <footer
       className="bp:gap-1 bp:px-12  absolute bp:bottom-1 bottom-3 
-      bp:flex-row flex flex-col justify-between items-center bp:p-1 px-20 gap-5 overflow-x-hidden"
+      bp:flex-row md:flex-row flex flex-col justify-between 
+      items-center bp:p-1 px-20 gap-5 overflow-x-hidden md:gap-20"
     >
-      <div className="flex justify-between items-center gap-1 order-10 bp:-order-1">
+      <div
+        className="flex justify-center items-center 
+      bp:gap-1 md:gap-2 gap-4 order-10 md:-order-1 bp:-order-1"
+      >
         <FooterBox image={apple} text="APP STORE" />
         <FooterBox image={google} text="GOOGLE PLAY" />
       </div>
-      <div className="-order-1 bp:order-none flex justify-center">
+      <div className="-order-1 bp:order-none md:order-none flex justify-center">
         <p className="w-3/5 pb-4 text-justify hidden bp:flex">
           Brokerage services by Cash App Investing LLC, member FINRA / SIPC. See
           our BrokerCheck. Investing involves risk; you may lose money. Bitcoin
@@ -36,9 +41,9 @@ function NormalFooter() {
           FDIC.
         </p>
       </div>
-      <div className="flex justify-between items-center gap-4">
-        <img src={tweet} alt="Twitter" className="w-8 bg-black"></img>
-        <img src={insta} alt="Instagram" className="w-8 bg-black "></img>
+      <div className="flex justify-between items-center bp:gap-4 gap-10">
+        <img src={tweet} alt="Twitter" className="w-10 bg-black"></img>
+        <img src={insta} alt="Instagram" className="w-10 bg-black "></img>
       </div>
     </footer>
   );

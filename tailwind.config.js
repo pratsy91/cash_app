@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     screens: {
       bp: "1400px",
+      md: "650px",
     },
     fontSize: {
       cash: "18rem",
