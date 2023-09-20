@@ -7,7 +7,10 @@ import small from "../images/pillar-small.png";
 
 function Payments() {
   return (
-    <div className=" h-screen   relative overflow-y-hidden">
+    <div
+      className=" h-screen w-screen bp:flex hidden  
+    relative overflow-y-hidden overflow-x-hidden"
+    >
       <img
         src={column}
         alt="column"

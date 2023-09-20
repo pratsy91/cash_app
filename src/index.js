@@ -14,6 +14,8 @@ import Status from "./pages/Status";
 import Codeblog from "./pages/Codeblog";
 import License from "./pages/License";
 import Payments from "./pages/Payments";
+import Banking from "./pages/Banking";
+import Cash from "./pages/Cash";
 
 const route = createBrowserRouter([
   {
@@ -56,6 +58,14 @@ const route = createBrowserRouter([
       {
         path: "payment",
         element: <Payments />,
+      },
+      {
+        path: "banking",
+        element: <Banking />,
+      },
+      {
+        path: "cash",
+        element: <Cash />,
       },
     ],
   },
