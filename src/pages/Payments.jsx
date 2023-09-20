@@ -55,7 +55,7 @@ function Payments() {
         bp:top-96 bp:left-96 bottom-12 left-36 z-10 "
       />
       <div
-        className="absolute top-40 bp:left-72 left-24
+        className="absolute top-40 bp:left-60 left-24
       md:left-6 md:top-12"
       >
         <h1 className=" bp:text-xxl text-xl  text-green-500  font-bold">

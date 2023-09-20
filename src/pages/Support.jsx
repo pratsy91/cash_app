@@ -11,10 +11,10 @@ function Support() {
         backgroundImage: `url(${support})`,
       }}
     >
-      <div className=" bg-white opacity-80 py-5 px-2 rounded-md">
-        <h1 className="text-xxl text-green-500">How Can We Help You?</h1>
+      <div className=" bg-white opacity-80 p-1 rounded-md">
+        <h1 className="text-xl text-green-500 pb-1">How Can We Help You?</h1>
         <p className="text-bold text-xl">
-          <span className="text-green-500 text-xxl">T</span>echnical support
+          <span className="text-green-500 text-xl">T</span>echnical support
           refers to a range of services offered by companies to help customers
           troubleshoot and resolve problems with their technology products and
           services. This can include software or hardware issues, or more

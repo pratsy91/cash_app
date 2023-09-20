@@ -11,10 +11,10 @@ function Codeblog() {
         backgroundImage: `url(${code})`,
       }}
     >
-      <div className=" bg-white opacity-80 p-5 rounded-md">
-        <h1 className="text-xxl text-green-500 pb-5">Codeblog</h1>
+      <div className=" bg-white opacity-80 p-1 rounded-md">
+        <h1 className="text-xl text-green-500 pb-1">Codeblog</h1>
         <p className="text-bold text-xl">
-          <span className="text-green-500 text-xxl">A</span> coding community is
+          <span className="text-green-500 text-xl">A</span> coding community is
           a group of individuals who come together with the shared interest of
           learning, collaborating, and advancing their skills in programming and
           technology. These communities are often formed online through forums,

@@ -11,19 +11,15 @@ function Press() {
         backgroundImage: `url(${news})`,
       }}
     >
-      <div className=" bg-white opacity-80 p-5 rounded-md">
-        <h1 className="text-scash text-green-500 pb-5">Press</h1>
+      <div className=" bg-white opacity-80 p-1 rounded-md">
+        <h1 className="text-scash text-green-500">Press</h1>
         <p className="text-bold text-xl">
-          <span className="text-green-500 text-xxl">P</span>ress refers to
+          <span className="text-green-500 text-xl">P</span>ress refers to
           various types of media organizations that gather and distribute news
           and information to the public, including newspapers, magazines, radio
           and television stations, websites, and social media platforms. The
           press plays a crucial role in informing the public about events and
-          issues that affect their lives and shaping public opinion. Journalists
-          who work for the press are responsible for conducting research,
-          interviewing sources, and presenting accurate and balanced reports.
-          The press is also responsible for holding those in power accountable
-          and exposing corruption and wrongdoing.
+          issues that affect their lives and shaping public opinion.
         </p>
       </div>
     </div>

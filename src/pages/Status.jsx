@@ -2,13 +2,7 @@ import React from "react";
 import progress from "../images/status.jpg";
 
 function Status() {
-  let arr = [
-    "send and recieve money",
-    "cash card",
-    "cash app pay",
-    "direct deposit",
-    "offers",
-  ];
+  let arr = ["send and recieve money", "cash card", "cash app pay", "offers"];
   return (
     <div
       className="h-screen bg-top bg-cover bg-no-repeat 
@@ -18,8 +12,8 @@ function Status() {
         backgroundImage: `url(${progress})`,
       }}
     >
-      <div className=" bg-white opacity-80 p-5 rounded-md">
-        <h1 className="text-xxl text-green-500 ">Good to go</h1>
+      <div className=" bg-white opacity-80 p-1 rounded-md">
+        <h1 className="text-xl text-green-500 pb-1 ">Good to go</h1>
         <ul className="flex flex-col gap-5">
           {arr.map((a) => (
             <li className="p-2 border border-green-500 rounded-md flex justify-between">

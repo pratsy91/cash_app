@@ -11,12 +11,12 @@ function Career() {
         backgroundImage: `url(${career})`,
       }}
     >
-      <div className=" bg-white opacity-80 p-2 rounded-md">
-        <h1 className="text-xxl text-green-500">
+      <div className=" bg-white opacity-80 p-1 mt-28 rounded-md">
+        <h1 className="text-xl text-green-500 text-center">
           Redefine relationship with money.
         </h1>
         <p className="text-bold text-xl">
-          <span className="text-green-500 text-xxl">W</span>e want to make the
+          <span className="text-green-500 text-xl">W</span>e want to make the
           world’s relationship with money more relatable, instantly available,
           and universally accessible. This is our mission, and it’s why working
           at Cash App means so much than a job. Lorem ipsum dolor sit amet

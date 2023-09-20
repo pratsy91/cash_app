@@ -1,6 +1,5 @@
 import React from "react";
 import security from "../images/security2.png";
-import NormalFooter from "../components/NormalFooter";
 
 function Security() {
   return (
@@ -13,10 +12,10 @@ function Security() {
           backgroundImage: `url(${security})`,
         }}
       >
-        <div className=" bg-teal-700 text-white opacity-95 p-5 rounded-md">
-          <h1 className="text-xxl text-green-500">Security</h1>
+        <div className=" bg-white text-black opacity-95 px-1 py-1 rounded-md">
+          <h1 className="text-xxl text-green-500 font-bold">Security</h1>
           <p className="text-bold text-xl">
-            <span className="text-green-500 text-xxl">I</span>t’s never been
+            <span className="text-green-500 text-xl">I</span>t’s never been
             easier to send money, but that doesn’t mean it shouldn’t be safe.
             Cash App utilizes a variety of safety features to process millions
             of payments a year and ensure the protection of our customers. Lorem

@@ -27,10 +27,14 @@ function Menu() {
           onClick={logoHandler}
           className="cursor-pointer"
         />
-        {/* <NavLink  className={({ isActive, isPending }) =>
-  isActive?"border border-white px-1 py-1 bg-white text-black mb-2 rounded-md":""
-}>SIGN IN</NavLink> */}
+
         <div className="text-white justify-between gap-5 bp:flex hidden">
+          <NavLink
+            to="/"
+            className="border  px-1 py-1 bg-green-500 text-white mb-2 rounded-md"
+          >
+            SIGN IN
+          </NavLink>
           <NavLink
             to="/legal"
             className={({ isActive, isPending }) =>
@@ -133,13 +137,24 @@ function Menu() {
       {/* Responsive Menu */}
       <div>
         {show ? (
-          <ul className="text-white  gap-8  flex justify-between bg-black text-center flex-col pt-20 pb-2 fixed bp:hidden w-full opacity-80  z-10">
+          <ul
+            className="text-white  gap-2  flex justify-between 
+          bg-black text-center flex-col pt-20 pb-2 fixed bp:hidden w-full opacity-80  z-10"
+          >
+            <li>
+              <NavLink
+                to="/"
+                className="border  px-2 py-1 bg-green-700 text-white mb-1 rounded-md"
+              >
+                SIGN IN
+              </NavLink>
+            </li>
             <li>
               <NavLink
                 to="/legal"
                 className={({ isActive, isPending }) =>
                   isActive
-                    ? "border border-white px-1 py-1 bg-white text-black mb-2 rounded-md"
+                    ? "border border-white px-1 py-1 bg-white text-black mb-1 rounded-md"
                     : ""
                 }
               >
@@ -152,7 +167,7 @@ function Menu() {
                 to="/license"
                 className={({ isActive, isPending }) =>
                   isActive
-                    ? "border border-white px-1 py-1 bg-white text-black mb-2 rounded-md"
+                    ? "border border-white px-1 py-1 bg-white text-black mb-1 rounded-md"
                     : ""
                 }
               >
@@ -164,7 +179,7 @@ function Menu() {
                 to="/security"
                 className={({ isActive, isPending }) =>
                   isActive
-                    ? "border border-white px-1 py-1 bg-white text-black mb-2 rounded-md"
+                    ? "border border-white px-1 py-1 bg-white text-black mb-1 rounded-md"
                     : ""
                 }
               >
@@ -176,7 +191,7 @@ function Menu() {
                 to="/career"
                 className={({ isActive, isPending }) =>
                   isActive
-                    ? "border border-white px-1 py-1 bg-white text-black mb-2 rounded-md"
+                    ? "border border-white px-1 py-1 bg-white text-black mb-1 rounded-md"
                     : ""
                 }
               >
@@ -188,7 +203,7 @@ function Menu() {
                 to="/press"
                 className={({ isActive, isPending }) =>
                   isActive
-                    ? "border border-white px-1 py-1 bg-white text-black mb-2 rounded-md"
+                    ? "border border-white px-1 py-1 bg-white text-black mb-1 rounded-md"
                     : ""
                 }
               >
@@ -200,7 +215,7 @@ function Menu() {
                 to="/support"
                 className={({ isActive, isPending }) =>
                   isActive
-                    ? "border border-white px-1 py-1 bg-white text-black mb-2 rounded-md"
+                    ? "border border-white px-1 py-1 bg-white text-black mb-1 rounded-md"
                     : ""
                 }
               >
@@ -212,7 +227,7 @@ function Menu() {
                 to="/status"
                 className={({ isActive, isPending }) =>
                   isActive
-                    ? "border border-white px-1 py-1 bg-white text-black mb-2 rounded-md"
+                    ? "border border-white px-1 py-1 bg-white text-black mb-1 rounded-md"
                     : ""
                 }
               >
@@ -224,7 +239,7 @@ function Menu() {
                 to="/code"
                 className={({ isActive }) =>
                   isActive
-                    ? "border border-white px-1 py-1 bg-white text-black mb-2 rounded-md"
+                    ? "border border-white px-1 py-1 bg-white text-black mb-1 rounded-md"
                     : ""
                 }
               >
