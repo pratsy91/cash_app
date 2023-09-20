@@ -92,13 +92,13 @@ function Banking() {
       </div>
       <div
         className="absolute bp:right-28 right-6 
-      bp:bottom-60 bottom-32 bp:w-auto w-14"
+      bp:bottom-60 bottom-60 bp:w-auto w-14"
       >
         <img src={rightStairs} alt="stairs" />
       </div>
       <div
-        className="absolute bp:right-96 right-28 bp:top-60 
-      bottom-48 w-28 bp:w-auto"
+        className="absolute bp:right-96 right-16 bp:top-60 
+      bottom-40 w-28 bp:w-auto"
       >
         <img src={upperRamp} alt="ramp" />
       </div>
@@ -144,7 +144,7 @@ function Banking() {
       </div>
       <div
         className="absolute bp:left-28 left-3 
-      bp:bottom-52 bottom-32 w-14 bp:w-auto"
+      bp:bottom-52 bottom-48 w-14 bp:w-auto"
       >
         <img src={leftStairs} alt="stairs" />
       </div>
