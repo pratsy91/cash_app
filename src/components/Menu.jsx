@@ -12,6 +12,12 @@ function Menu() {
   const { user, loginWithRedirect, isAuthenticated, logout } = useAuth0();
   const [show, setShow] = useState(false);
 
+  console.log(user);
+
+  const eyeHandler = () => {
+    navigate("/");
+  };
+
   const logoHandler = () => {
     navigate("/");
   };
@@ -36,12 +42,23 @@ function Menu() {
           {!isAuthenticated ? (
             <button
               onClick={(e) => loginWithRedirect()}
-              className="border  px-1 py-1 bg-green-500 text-white mb-2 rounded-md"
+              className="border  px-1 py-1 bg-green-500 text-white mb-2 rounded-md "
               type="button"
             >
               SIGN IN
             </button>
           ) : null}
+          <NavLink
+            to="/"
+            end
+            className={({ isActive, isPending }) =>
+              isActive
+                ? "border border-white px-1 py-1 bg-white text-black mb-2 rounded-md"
+                : ""
+            }
+          >
+            Home
+          </NavLink>
           <NavLink
             to="/legal"
             className={({ isActive, isPending }) =>
@@ -147,7 +164,12 @@ function Menu() {
             <FaBars />
           </div>
         )}
-        <img src={eye} alt="logo" className="hidden bp:flex" />
+        <img
+          src={eye}
+          alt="logo"
+          className="hidden bp:flex cursor-pointer"
+          onClick={eyeHandler}
+        />
       </header>
 
       {/* Responsive Menu */}
@@ -157,14 +179,26 @@ function Menu() {
             className="text-white  gap-2  flex justify-between 
           bg-black text-center flex-col pt-20 pb-2 fixed bp:hidden w-full opacity-80  z-10"
           >
-            <li>
-              <NavLink
-                to="/"
-                className="border  px-2 py-1 bg-green-700 text-white mb-1 rounded-md"
-              >
-                SIGN IN
-              </NavLink>
-            </li>
+            {!isAuthenticated ? (
+              <li onClick={(e) => loginWithRedirect()}>
+                <button
+                  className="border  px-1 py-1 bg-green-500 text-white mb-2 rounded-md"
+                  type="button"
+                >
+                  SIGN IN
+                </button>
+              </li>
+            ) : (
+              <li onClick={(e) => logout()}>
+                <button
+                  className="border  px-1 py-1 bg-green-500 text-white mb-2 rounded-md"
+                  type="button"
+                >
+                  SIGN OUT
+                </button>
+              </li>
+            )}
+
             <li>
               <NavLink
                 to="/legal"
