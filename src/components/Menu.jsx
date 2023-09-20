@@ -201,6 +201,19 @@ function Menu() {
 
             <li>
               <NavLink
+                to="/"
+                className={({ isActive, isPending }) =>
+                  isActive
+                    ? "border border-white px-1 py-1 bg-white text-black mb-1 rounded-md"
+                    : ""
+                }
+              >
+                Home
+              </NavLink>
+            </li>
+
+            <li>
+              <NavLink
                 to="/legal"
                 className={({ isActive, isPending }) =>
                   isActive
