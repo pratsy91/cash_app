@@ -4,7 +4,7 @@ import stairs from "../images/intro-stairs 1.png";
 
 function UpperHome() {
   return (
-    <div className="flex justify-between px-10 bp:px-52 bp:top-20 relative top-40 ">
+    <div className="flex justify-between px-10 bp:px-52 bp:top-20 relative top-44 ">
       <div>
         <img src={cube} alt="cube" />
       </div>

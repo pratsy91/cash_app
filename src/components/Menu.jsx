@@ -18,7 +18,7 @@ function Menu() {
   return (
     <>
       <header
-        className="bg-black px-10 pt-5 flex justify-between items-center fixed top-0 w-full 
+        className="bg-red-500 px-10 pt-5 flex justify-between items-center fixed top-0 w-full 
   opacity-80 hover:opacity-80 z-20"
       >
         <img

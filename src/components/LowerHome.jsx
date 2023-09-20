@@ -4,7 +4,7 @@ import cubes from "../images/intro-cubes 1.png";
 
 function LowerHome() {
   return (
-    <div className="flex justify-between relative -bottom-44 px-10 bp:px-44 bp:-bottom-72">
+    <div className="flex justify-between relative -bottom-32 px-10 bp:px-44 bp:-bottom-72">
       <div className="w-20 bp:w-auto">
         <img src={cubes} alt="cubes" />
       </div>

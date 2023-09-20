@@ -8,7 +8,7 @@ import small from "../images/pillar-small.png";
 function Payments() {
   return (
     <div
-      className=" h-screen w-screen bp:flex hidden  
+      className=" h-screen w-screen bp:flex   
     relative overflow-y-hidden overflow-x-hidden"
     >
       <img
